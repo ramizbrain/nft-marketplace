@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .heading-2xl {
+    font-size: 67px;
+    line-height: 110%;
+  }
+  .heading-xl {
+    font-size: 51px;
+    line-height: 110%;
+  }
+  .heading-large {
+    font-size: 38px;
+    line-height: 120%;
+  }
+  .heading-medium {
+    font-size: 28px;
+    line-height: 140%;
+  }
+  .heading-small {
+    font-size: 22px;
+    line-height: 160%;
+  }
+  .base-large {
+    font-size: 22px;
+    line-height: 160%;
+  }
+  .base-medium {
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .base-small {
+    font-size: 12px;
+    line-height: 110%;
+  }
+  .rounded {
+    border-radius: 20px;
+  }
+}
+
+@layer components {
+  .box {
+    @apply px-[30px] md:px-[70px] lg:px-[115px];
+  }
+}
